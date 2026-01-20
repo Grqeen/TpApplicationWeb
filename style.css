@@ -105,3 +105,31 @@ body {
     width: 80%;
 }
 
+.content3{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 50px;
+}
+
+.content3 .text-container p{
+    font-size: small;
+    color: gray;
+}
+
+.content3 .stats{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.content3 .infos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content3 .infos .info-box{
+    background-color: gray;
+    border-radius: 20%;
+}
