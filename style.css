@@ -1,7 +1,5 @@
-/* Import des polices Google Fonts (Playfair Display pour les titres, Poppins pour le texte) */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap');
 
-/* Reset CSS de base */
 * {
     margin: 0;
     padding: 0;
@@ -9,8 +7,6 @@
 }
 
 body {
-    /* Dégradé de fond sombre violet/bleu */
-    background: linear-gradient(135deg, #3a2c4d 0%, #181935 100%);
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
@@ -19,6 +15,13 @@ body {
 
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
+}
+
+.background1 {
+    background: radial-gradient(circle at top right, #1a1b3a, #984D38);
+}
+.background2 {
+    background: radial-gradient(circle at top right, #1a1b3a, #984D38);
 }
 
 a {
@@ -79,7 +82,7 @@ ul {
     border-radius: 2px;
 }
 
-/* --- Hero Section (Content) --- */
+
 .content {
     text-align: center;
     padding-top: 60px;
@@ -116,6 +119,7 @@ ul {
     object-fit: cover;
     mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
     -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+    border-radius: 0 200px 200px 200px;
 }
 
 .barnoir {
